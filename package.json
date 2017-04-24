@@ -1,0 +1,24 @@
+{
+  "name": "languid-crane",
+  "version": "1.0.0",
+  "description": "Pizza Restaurant: Relational DB Schema CRUD API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aishao/languid-crane.git"
+  },
+  "author": "Aisha Ortiz and Helen Yau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aishao/languid-crane/issues"
+  },
+  "homepage": "https://github.com/aishao/languid-crane#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "pug": "^2.0.0-beta.12"
+  }
+}
