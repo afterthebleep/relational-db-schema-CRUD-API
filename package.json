@@ -2,8 +2,9 @@
   "name": "languid-crane",
   "version": "1.0.0",
   "description": "Pizza Restaurant: Relational DB Schema CRUD API",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,6 @@
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
-    "pug": "^2.0.0-beta.12"
+    "nodemon": "^1.11.0"
   }
 }
