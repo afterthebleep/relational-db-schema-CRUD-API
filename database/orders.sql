@@ -2,7 +2,9 @@ DROP TABLE IF EXISTS orders;
 
 CREATE TABLE orders (
   id SERIAL PRIMARY KEY,
-  total INTEGER,
+  order_date VARCHAR(250),
+  delivery BOOLEAN,
+  delivery_fee INTEGER,
   customer_id INTEGER references customers(id)
 );
 
