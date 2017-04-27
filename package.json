@@ -6,7 +6,7 @@
   "scripts": {
     "db": "createdb languid_crane",
     "dropdb": "dropdb languid_crane",
-    "insertdb": "psql languid_crane < database/customer.sql",
+    "insertdb": "npm run dropdb && npm run db && psql languid_crane < database/customer.sql && psql languid_crane < database/orders.sql && psql languid_crane < database/address.sql && psql languid_crane < database/user_login.sql && psql languid_crane < database/payment_type.sql && psql languid_crane < database/pizza.sql && psql languid_crane < database/drinks.sql && psql languid_crane < database/ingredients.sql",
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
