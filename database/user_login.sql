@@ -5,5 +5,5 @@ CREATE TABLE user_login (
   email VARCHAR(250),
   password VARCHAR(250),
   user_id INTEGER,
-  FOREIGN KEY (user_id) REFERENCES customers(id)
+  FOREIGN KEY (user_id) REFERENCES customer(id)
 );

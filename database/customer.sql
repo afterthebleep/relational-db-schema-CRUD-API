@@ -1,6 +1,6 @@
-DROP TABLE IF EXISTS customers;
+DROP TABLE IF EXISTS customer;
 
-CREATE TABLE customers (
+CREATE TABLE customer (
   id SERIAL PRIMARY KEY,
   name VARCHAR(250),
   phone_number VARCHAR(250)

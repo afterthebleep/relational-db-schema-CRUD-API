@@ -1,9 +1,9 @@
-DROP TABLE IF EXISTS pizzas;
+DROP TABLE IF EXISTS pizza;
 
-CREATE TABLE pizzas (
+CREATE TABLE pizza (
   id SERIAL PRIMARY KEY,
   name VARCHAR(250),
-  price INTEGER,
+  price DECIMAL,
   size VARCHAR(250),
   crust_type VARCHAR(250),
   pizza_order INTEGER,
