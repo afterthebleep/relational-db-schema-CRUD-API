@@ -4,6 +4,9 @@
   "description": "Pizza Restaurant: Relational DB Schema CRUD API",
   "main": "app.js",
   "scripts": {
+    "db": "createdb languid_crane",
+    "dropdb": "dropdb languid_crane",
+    "insertdb": "psql languid_crane < database/customer.sql",
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
