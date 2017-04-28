@@ -33,8 +33,8 @@ app.post('/add', (req, res, next) => {
     returnData.user = user
     return db.addOrders()
   })
-  .then( order => {
-    returnData.order = order
+  .then(orders => {
+    returnData.orders = orders
     return db.addPizza()
   })
   .then(pizza => {

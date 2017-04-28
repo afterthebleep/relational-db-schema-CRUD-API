@@ -26,7 +26,7 @@ const addUser_Login = () => {
   return db.one(psql)
 }
 const addOrders = () => {
-  let psql = `INSERT INTO orders (order_date, delivery, delivery_fee) VALUES ('01/14/17', true, 5 ) RETURNING *`
+  let psql = `INSERT INTO orders (order_date, delivery, delivery_fee) VALUES ('01/14/17', true, 5) RETURNING *`
   return db.one(psql)
 }
 const addPizza = () => {
