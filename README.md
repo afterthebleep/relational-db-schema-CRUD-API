@@ -30,43 +30,44 @@ Before diving in, it is strongly recommended to review the video and code from @
 
 ### Product/User Stories
 
- - [ ] Can track all customers and any relevant customer information, including but not limited to…
-     - [ ] customer ID
-     - [ ] name
-     - [ ] username/login details
-     - [ ] delivery address(es)
-     - [ ] phone number(s)
-     - [ ] payment methods on file (e.g., cash, credit, check - if credit, then the card number should also be stored)
- - [ ] Can track each customer’s pizza preferences
- - [ ] Can track the ingredients that comprise each of these preferences (e.g., onions, ham, pineapple, anchovies, bacon, etc.)
- - [ ] Can track standard drinks, including…
-     - [ ] a product ID
-     - [ ] drink description
-     - [ ] manufacturer
-     - [ ] supplier
-     - [ ] price
- - [ ] Can track pizza data:
- - [ ] sizes (small, medium, large, extra large)
- - [ ] types (thick or thin crust)
- - [ ] ingredients (pepperoni, sausage, mushrooms, onions, cheese, etc.)
- - [ ] price data for these pizza sizes and ingredients
- - [ ] happy hour price discounts
+ - [X] Can track all customers and any relevant customer information, including but not limited to…
+     - [X] customer ID
+     - [X] name
+     - [X] username/login details
+     - [X] delivery address(es)
+     - [X] phone number(s)
+     - [X] payment methods on file (e.g., cash, credit, check - if credit, then the card number should also be stored)
+ - [X] Can track each customer’s pizza preferences
+ - [X] Can track the ingredients that comprise each of these preferences (e.g., onions, ham, pineapple, anchovies, bacon, etc.)
+ - [X] Can track standard drinks, including…
+     - [X] a product ID
+     - [X] drink description
+     - [X] manufacturer
+     - [X] supplier
+     - [X] price
+ - [X] Can track pizza data:
+ - [X] sizes (small, medium, large, extra large)
+ - [X] types (thick or thin crust)
+ - [X] ingredients (pepperoni, sausage, mushrooms, onions, cheese, etc.)
+ - [X] price data for these pizza sizes and ingredients
+ - [X] happy hour price discounts
 
-### Other
 
- - [ ] The artifact is a GitHub repo
- - [ ] There are commands provided (using npm run and/or with executable scripts in a bin/ directory) to:
-     - [ ] Create the database
-     - [ ] Drop the database
-     - [ ] Insert sample/seed data to the database
-     - [ ] Start the web server
- - [ ] SQL files are well formatted and readable.
- - [ ] All the SQL keywords are capitalized.
- - [ ] The E-R diagram minimizes data redundancy.
- - [ ] Table names are singular, not plural.
- - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
- - [ ] Code is well organized into a meaningful file structure.
- - [ ] The artifact produced is properly licensed, preferably with the MIT license.
+
+ - [X] The artifact is a GitHub repo
+ - [X] There are commands provided (using npm run and/or with executable scripts in a bin/ directory) to:
+     - [X] Create the database
+     - [X] Drop the database
+     - [X] Insert sample/seed data to the database
+     - [X] Start the web server
+ - [X] SQL files are well formatted and readable.
+ - [X] All the SQL keywords are capitalized.
+ - [X] The E-R diagram minimizes data redundancy.
+ - [X] Table names are singular, not plural.
+ - [X] Variables, functions, files, etc. have appropriate and meaningful names.
+ - [X] Code is well organized into a meaningful file structure.
+ - [X] The artifact produced is properly licensed, preferably with the MIT license.
+
 HINT: if you see an item in bold, you may want to consider creating a table for that item. :)
 
 Please feel free to adapt the content of the data to your personal preferences or adjust your schema to support any other data types or operations you can think of.
