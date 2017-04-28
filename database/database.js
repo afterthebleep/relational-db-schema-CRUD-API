@@ -36,7 +36,7 @@ order_descData () => {
     return db.any('SELECT * FROM customer ORDER BY name DESC LIMIT 2')
 }
 
-*cityData () => {
+***cityData () => {
     return db.any('SELECT * FROM address WHERE city LIKE '%oakland%'')
 }
 
