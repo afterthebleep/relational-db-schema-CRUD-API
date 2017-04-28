@@ -7,9 +7,14 @@ CREATE TABLE address (
   state VARCHAR(250),
   zip VARCHAR(250),
   primary_address BOOLEAN,
-  customer_id INTEGER REFERENCES customer(id)
+  customer_id INTEGER,
+  FOREIGN KEY(customer_id) REFERENCES customer(id) ON DELETE CASCADE
 );
 
-ALTER TABLE address
 
-ADD CONSTRAINT fkcustomer_id FOREIGN KEY(customer_id) REFERENCES customer(id)
+INSERT INTO address (street, city, state, zip, primary_address, customer_id)
+VALUES('90 taco st', 'san francisco', 'CA', '94101', true, 1);
+INSERT INTO address (street, city, state, zip, primary_address, customer_id)
+VALUES('80 hip st', 'san jose', 'CA', '9501', false, 2);
+INSERT INTO address (street, city, state, zip, primary_address, customer_id)
+VALUES('711 slurpie ave', 'san francisco', 'CA', '91234', true, 3);

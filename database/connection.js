@@ -1,8 +1,8 @@
 const pgp = require('pg-promise')()
 
 const connection = {
-  localhost: '3000',
-  host: '5432',
+  host: 'localhost',
+  port: 5432,
   database: 'languid_crane'
 }
 
