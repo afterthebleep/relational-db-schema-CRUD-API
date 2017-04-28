@@ -6,6 +6,10 @@ CREATE TABLE customer (
   phone_number VARCHAR(250)
 );
 
---
--- INSERT INTO customers (name, delivery_addresses, phone_number, payment_methods)
--- VALUES ('john', 'taco street', '555-555-5555', 'visa')
+
+INSERT INTO customer (name, phone_number)
+VALUES ('john', '555-555-5555');
+INSERT INTO customer (name, phone_number)
+VALUES('zoe', '123-456-7890');
+INSERT INTO customer (name, phone_number)
+VALUES('tina', '888-666-123')
