@@ -52,7 +52,7 @@ Before diving in, it is strongly recommended to review the video and code from @
  - [X] price data for these pizza sizes and ingredients
  - [X] happy hour price discounts
 
-### Other
+
 
  - [X] The artifact is a GitHub repo
  - [X] There are commands provided (using npm run and/or with executable scripts in a bin/ directory) to:
@@ -67,6 +67,7 @@ Before diving in, it is strongly recommended to review the video and code from @
  - [X] Variables, functions, files, etc. have appropriate and meaningful names.
  - [X] Code is well organized into a meaningful file structure.
  - [X] The artifact produced is properly licensed, preferably with the MIT license.
+
 HINT: if you see an item in bold, you may want to consider creating a table for that item. :)
 
 Please feel free to adapt the content of the data to your personal preferences or adjust your schema to support any other data types or operations you can think of.
