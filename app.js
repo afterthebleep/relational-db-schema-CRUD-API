@@ -54,12 +54,6 @@ app.post('/add', (req, res, next) => {
   })
 })
 
-// app.get('/delete', (req, res, next) {
-//
-// })
-
-
-
 
 app.listen(3000, function () {
   console.log('listening on port 3000!');
